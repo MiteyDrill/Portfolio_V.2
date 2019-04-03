@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: 'league';
+    src: url('fonts/league_spartan/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'baskerville';
+    src: url('fonts/libre_baskerville/librebaskerville-regular-webfont.woff2') format('woff2'),
+         url('fonts/libre_baskerville/librebaskerville-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* GLOBAL */
+
+
+/*TOP SECTION*/
+header{
+  height: 100vh;
+  width: 100%;
+
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+
+  font-family: monospace;
+  font-size: 16px;
+
+  width: 20%;
+  height: 100%;
+  list-style: none;
+
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+}
+
+header nav li ul{
+  cursor: pointer;
+  padding: 5px 3px;
+  margin: 5px 0px;
+}
+
+#div-front-page{
+  display: flex;
+
+  font-family: league;
+
+  width: 80%;
+  height: 100%;
+
+  text-align: right;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    rgba(0,0,0,0.30),
+    rgba(0,0,0,0.85)
+    ),
+    url('./images/computer.jpg');
+  background-size: calc(150% + 1vw);
+  background-repeat: no-repeat;
+
+  background-position: 50% 45%;
+}
+
+#div-front-page h1{
+  font-size: calc(42px + 0.3vw);
+}
+
+#div-front-page h2{
+  font-size: 18px;
+}
+
+
+
+/*TOP SECTION*/
+
+/* SECTION 2 */
+
+#section-2{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  flex-direction: row;
+  align-items: center;
+
+  text-align: center;
+}
+
+#language-div{
+  width: 50%;
+  height: 100%;
+
+  background: linear-gradient(rgba(0,0,0, 0.85),
+  rgba(0,0,0,0.45)),
+  url('./images/code.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 45% -15%;
+
+  background-attachment: fixed;
+
+  /* turn this off for mobile */
+
+}
+
+#current-div{
+  width: 50%;
+  height: 100%;
+}
+
+#current-div img{
+  border: white dashed 1px;
+  cursor: pointer;
+}
+
+.box{
+    font-family: league;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img{
+  width: 80%;
+  margin: 20px 0;
+}
+
+/* SECTION 2 */
