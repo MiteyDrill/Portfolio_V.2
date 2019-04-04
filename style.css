@@ -297,12 +297,16 @@ header nav li ul{
 
   #div-front-page{
     height: 100vh;
-    background-size: 400%;
-    background-position: 20% 20%;
+    background-size: 300%;
+    background-position: 10% 20%;
   }
 
   #div-front-page h1{
     font-size: 8vw;
+  }
+
+  #current-div{
+    height: 100%;
   }
 
   #div-front-page h2{
@@ -310,7 +314,7 @@ header nav li ul{
   }
 
   #language-div{
-    background-size: 300%;
+    background-size: 150%;
   }
 
   #section-3{
