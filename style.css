@@ -128,9 +128,8 @@ header nav li ul{
   background: linear-gradient(rgba(0,0,0, 0.85),
   rgba(0,0,0,0.45)),
   url('./images/code.jpg');
-  background-size: 100%;
+  background-size: 140%;
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: 45% -15%;
 
   background-attachment: fixed;
@@ -229,3 +228,109 @@ header nav li ul{
 }
 
 /* SECTION 3 */
+
+
+/* tablet */
+
+@media only screen and (max-width: 800px) {
+  header{
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  #nav{
+    width: 100%;
+    height: 15vh;
+  }
+
+  #nav li ul{
+    display: inline;
+  }
+
+  #div-front-page{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  #section-2{
+    flex-direction: column;
+  }
+
+  #language-div{
+    width: 100%;
+    background-size: 190%;
+  }
+
+  #current-div{
+    width: 100%;
+  }
+
+  #github-block{
+    background-position: 100% 150%;
+
+    font-size: 80%;
+  }
+
+  #section-3{
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  header{
+    height: 100vh;
+  }
+  #nav{
+    height: 7vh;
+    position: fixed;
+    background-color: rgba(0,0,0,0.25);
+    top:0;
+    right: 0;
+    width: 100%;
+  }
+
+  #nav li ul{
+    display: inline;
+  }
+
+  #div-front-page{
+    height: 100vh;
+    background-size: 400%;
+    background-position: 20% 20%;
+  }
+
+  #div-front-page h1{
+    font-size: 8vw;
+  }
+
+  #div-front-page h2{
+    font-size: 4vw;
+  }
+
+  #language-div{
+    background-size: 300%;
+  }
+
+  #section-3{
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  #future-projects{
+    width: 100%;
+    height: 100vh;
+  }
+
+  #future-projects p{
+    width: 80%;
+  }
+
+  #github-block{
+    width: 100%;
+    height: 100%;
+    background-size: 160%;
+    background-position: 100% 0%;
+  }
+}
