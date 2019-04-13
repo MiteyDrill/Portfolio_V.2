@@ -120,7 +120,9 @@ header nav li ul{
   width: 100%;
 
   display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-columns: 0.65fr 0.35fr;
+
+  background-color: white;
 
   font-family: league, monospace;
 
@@ -142,6 +144,29 @@ header nav li ul{
   opacity: 0.3;
 
   font-size: calc(2vh + 7.5vw);
+}
+
+#brand-text{
+  display: grid;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#brand-text p{
+  color: black;
+  font-family: monospace;
+  width: 70%;
+  text-align: left;
+
+  align-self: center;
+  justify-self: center;
+}
+
+#brand-text span{
+  color: red;
 }
 
 /* BRAND SECTION  */
@@ -374,8 +399,14 @@ header nav li ul{
     font-size: 4vw;
   }
 
+  #section-2{
+    background-attachment: scroll;
+  }
+
   #language-div{
     background-size: 300%;
+
+    background-attachment: scroll;
   }
 
   #section-3{
@@ -399,8 +430,11 @@ header nav li ul{
     background-position: 100% 0%;
 
     font-size: 70%
+
+    background-attachment: scroll;
   }
 
   #github-block h2{
     font-size: 100%;
+
 }
