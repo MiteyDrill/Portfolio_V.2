@@ -133,7 +133,7 @@ header nav li ul{
   height: 100%;
   text-align: right;
   padding-right: 0.4em;
-  background: linear-gradient(rgba(47, 49, 148, 1), rgba(87, 213, 201, 1));
+  background: linear-gradient(135deg, rgba(47, 49, 148, 1), rgba(87, 213, 201, 1));
 
   display: grid;
   align-items: center;
@@ -170,6 +170,154 @@ header nav li ul{
 }
 
 /* BRAND SECTION  */
+
+/* PRICE SECTION */
+
+#price-section{
+  height: 101vh;
+  min-height: 700px;
+
+  width: 100%;
+  min-width: 900px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  background: linear-gradient( 0deg, rgba(64, 229, 255, 1), rgba(223, 246, 252, 1));
+}
+
+/* Quick fix */
+#price-section div p{
+  color: black;
+}
+#price-section div h1{
+  color: black;
+}
+#price-section div h2{
+  color: black;
+}
+
+.panel{
+  height: 60%;
+  background-color: white;
+  width: 50%;
+  min-width: 300px;
+
+  text-align: center;
+
+  border-radius: 30px;
+
+  font-family: league;
+
+  /*Only works with grid parent*/
+  justify-self: center;
+}
+
+/* wordpress */
+
+#wordpress-panel{
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.7fr;
+}
+
+#wp-price{
+  padding: 1em;
+}
+
+#wp-price h1{
+  font-size: 2.8em;
+}
+#wp-price h2{
+  font-size: 1.3em;
+}
+
+#wp-info{
+  align-self: center;
+  justify-self: center;
+  text-align: left;
+  width: 70%;
+}
+
+#wp-info p{
+  font-family: sans-serif;
+  margin: 1em 0;
+}
+
+/* wordpess */
+
+/* custom website */
+
+#custom-panel{
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.7fr;
+
+  background: linear-gradient(rgba(255, 39, 147, 1), rgba(156, 107, 255, 1));
+}
+
+#custom-price h1{
+  color: white !important;
+
+  text-shadow: 0px 3px 7px rgba(0,0,0, 1);
+}
+#custom-price h2{
+  color: white !important;
+  text-shadow: 0px 3px 7px rgba(0,0,0, 1);
+}
+#custom-info p{
+  color: white !important;
+  text-shadow: 0px 2px 6px rgba(0,0,0, 1);
+}
+#custom-XT p{
+  color: white !important;
+  text-shadow: 0px 2px 4px rgba(0,0,0, 1);
+}
+
+#custom-price{
+  padding: 1em;
+}
+
+#custom-price h1{
+  font-size: 2.8em;
+}
+#custom-price h2{
+  font-size: 1.3em;
+}
+
+#custom-info{
+  align-self: center;
+  justify-self: center;
+  text-align: left;
+  width: 70%;
+}
+
+#custom-info p{
+  font-family: sans-serif;
+  margin: 1em 0;
+}
+
+#custom-XT{
+  font-size: 1em;
+
+  font-family: monospace;
+
+  justify-self: start;
+  align-self: end;
+
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+/* custom website */
+
+
+/* PRICE SECTION */
 
 
 /* SECTION 2 */
