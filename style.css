@@ -116,7 +116,7 @@ header nav li ul{
 
 #portfolio-section{
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.6fr 0.4fr;
   height: 130vh;
   min-height: 600px;
 
@@ -156,7 +156,6 @@ header nav li ul{
 
 #port-txt{
   align-self: center;
-  justify-self: stretch;
   text-align: center;
 }
 
@@ -539,6 +538,48 @@ header nav li ul{
   #div-front-page{
     width: 100%;
     height: 100%;
+  }
+
+  /* PORTFOLIO */
+  #portfolio-section{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.3fr;
+  }
+
+  #port-txt{
+    grid-row: 1;
+  }
+
+  /*Call to Action*/
+  #brand{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 0.2fr;
+    height: 120vh;
+  }
+
+  #brand h1{
+    text-align: center;
+    font-size: 11vw;
+  }
+
+  #brand-text{
+    background: linear-gradient(rgba(87, 213, 201, 1), rgba(87, 213, 201, 1));
+  }
+
+  #price-section{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    padding-top: 10em;
+    min-width: 100%;
+
+    height: 140vh;
+    min-height: 1000px;
+  }
+
+  .panel{
+    height: 80%;
+    width: 40%;
   }
 
 
