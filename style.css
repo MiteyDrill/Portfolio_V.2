@@ -112,6 +112,62 @@ header nav li ul{
 
 /*TOP SECTION*/
 
+/* PORTFOLIO */
+
+#portfolio-section{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  height: 130vh;
+  min-height: 600px;
+
+  width: 100%;
+
+  background-color: white;
+}
+
+#portfolio-section div h3{
+  color: black !important;
+}
+
+#port-images{
+  align-self: center;
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+}
+
+#port-images img{
+  color: gray;
+  background-color: gray;
+
+  box-sizing: border-box;
+
+  border: 3px solid transparent;
+	border-image: linear-gradient(to right, rgba(87, 200, 200, 0.7), rgba(230, 70, 110, 1));
+	border-image-slice: 1;
+
+  display: inline-block;
+  height: 150px;
+  width: 250px;
+}
+
+#port-txt{
+  align-self: center;
+  justify-self: stretch;
+  text-align: center;
+}
+
+#port-txt img{
+  height: 50px;
+  width: 50px;
+}
+
+
+/* PORTFOLIO */
+
 /* BRAND SECTION */
 
 #brand{
@@ -120,7 +176,7 @@ header nav li ul{
   width: 100%;
 
   display: grid;
-  grid-template-columns: 0.65fr 0.35fr;
+  grid-template-columns: 0.85fr 0.3fr;
 
   background-color: white;
 
@@ -132,8 +188,8 @@ header nav li ul{
 #brand-action{
   height: 100%;
   text-align: right;
-  padding-right: 0.4em;
-  background: linear-gradient(135deg, rgba(47, 49, 148, 1), rgba(87, 213, 201, 1));
+  padding-right: 2em;
+  background: linear-gradient(rgba(47, 49, 148, 0), rgba(87, 213, 201, 1));
 
   display: grid;
   align-items: center;
@@ -141,14 +197,16 @@ header nav li ul{
 }
 
 #brand-action h1{
-  opacity: 0.3;
+  opacity: 0.8;
 
-  font-size: calc(2vh + 7.5vw);
+  font-size: calc(2vh + 4.5vw);
 }
 
 #brand-text{
   display: grid;
   height: 100%;
+
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(87, 213, 201, 0.01), rgba(87, 213, 201, 0.09) ,rgba(87, 213, 201, 1));
 
   align-items: center;
   justify-content: center;
@@ -186,7 +244,7 @@ header nav li ul{
 
   align-items: center;
 
-  background: linear-gradient( 0deg, rgba(64, 229, 255, 1), rgba(223, 246, 252, 1));
+  background: linear-gradient( 0deg, rgba(251, 171, 224, 1), rgba(87, 213, 201, 1));
 }
 
 /* Quick fix */
